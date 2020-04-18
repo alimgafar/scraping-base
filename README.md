@@ -13,6 +13,6 @@ This environment assumes you're running pip3 and python 3.7.7. Here are the step
 7. Don't forget to save your work to git as you go: `(git add . && git commit -m"<change description>)"` <-- note the commands execute in a subprocess when wrapped with parens
 8. Once done, remove jupyter notebooks (`pip uninstall jupyter`).
 9. Generate a new *requireents.txt* file: `pip freeze > requirements.txt`
-`0. Commit new change to git and sync with remote: `(git add . && git commit -m"Regenerated requirements.txt with current dependencies" && git push -u origin master)`
-
+10. Commit new change to git and sync with remote: `(git add . && git commit -m"Regenerated requirements.txt with current dependencies" && git push -u origin master)`
+11. Cleanup. Type `deactivate` at the command prompt. 
 
