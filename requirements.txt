@@ -1,6 +1,7 @@
 attrs==19.3.0
 Automat==20.2.0
-b4==0.3.7
+beautifulsoup4==4.9.0
+bs4==0.0.1
 certifi==2020.4.5.1
 cffi==1.14.0
 chardet==3.0.4
@@ -25,6 +26,7 @@ Scrapy==2.0.1
 selenium==3.141.0
 service-identity==18.1.0
 six==1.14.0
+soupsieve==2.0
 Twisted==20.3.0
 urllib3==1.25.9
 w3lib==1.21.0
