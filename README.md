@@ -4,7 +4,11 @@
 
 This environment assumes you're running pip3 and python 3.7.7. 
 
+## Web driver requirements
+
 You will also need the Chrome Driver if it isn't already there. Check by typing `chromedriver --version` at a terminal prompt. If no response, install it with Homebrew by typing `brew cask install chromedriver` at a terminal prompt. This will allow selenium to control Chrome. On MacOS, `safaridriver` is installed by default with Safari. You can check on it by typing `safaridriver --version` at a terminal prompt. To enable control of Firefox, install the Gecko driver with Homebrew. Type `brew install geckodriver` at a terminal prompt. 
+
+# Workflow
 
 Here are the steps to follow to set up your libraries.
 
